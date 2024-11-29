@@ -1,3 +1,105 @@
-h1{
-    color:blanchedalmond
+/* overflow:auto 
+ overflow-x: hidden; 
+ overflow-y: scroll;
+
+*/
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
 }
+
+a{
+    width: 70px;
+    height: 70px;
+      background-color: rgb(22, 5, 51);
+      margin: 50px 20px;
+      padding: 5px;
+      font-size: 30px;
+      color: aliceblue;
+      border: 7px groove rgb(212, 158, 10);
+      border-radius: 4px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+.div_1{
+width: 300px;
+height: 300px;
+background-color: rgb(52, 47, 79);
+padding: 20px;
+margin: 20px;
+box-sizing: border-box;
+border: 10px solid skyblue;
+border-radius: 10px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+color: white;
+float:left;
+
+/* overflow */
+overflow: scroll;
+
+
+}
+
+.div_2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(52, 47, 79);
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 10px solid skyblue;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+    float:left;
+    
+    /* use of overflow */
+    /* overflow-x: hidden; */
+    overflow-y: scroll;
+    
+    
+    }
+
+    .div_3{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(52, 47, 79);
+        padding: 20px;
+        margin: 20px;
+        box-sizing: border-box;
+        border: 10px solid skyblue;
+        border-radius: 10px;
+        overflow: auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: white;
+        float:left;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        
+        }
+
+
+
+
+.div_4{
+    width: 20%;
+    height: 200px;
+    background-color:slategrey;
+    padding: 2%;
+    margin:5%;
+    box-sizing: border-box;
+    border: .5em solid rgb(25, 5, 74);
+    border-radius: 10px;
+    overflow: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    float:left;
+    
+    
+    }

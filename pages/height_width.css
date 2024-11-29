@@ -1,15 +1,32 @@
 
+/*
+width: 70px;
+ height: 70px;
+ min-width: 500px;
+ max-width: 1050px;
+
+*/
+
+
+
+
+
+
+
+
+
 a{
-  width: 70px;
-  height: 70px;
-    background-color: olive;
-    margin: 40px 20px;
-    padding: 5px;
-    font-size: 20px;
-    color: aliceblue;
-    border: 4px groove rgb(62, 60, 9);
-    border-radius: 4px;
-}
+    width: 70px;
+    height: 70px;
+      background-color: rgb(22, 5, 51);
+      margin: 50px 20px;
+      padding: 5px;
+      font-size: 30px;
+      color: aliceblue;
+      border: 7px groove rgb(212, 158, 10);
+      border-radius: 4px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
 
 
 /* use of height and width */

@@ -1,4 +1,8 @@
 
+
+/* box-sizing: border-box; */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,18 +10,17 @@
 }
 
 a{
-    background-color: cornsilk;
-    font-size: 30px;
-    height: 40px;
-    width: 40px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 5px solid steelblue;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    font-family: serif;
-    
-}
+    width: 70px;
+    height: 70px;
+      background-color: rgb(22, 5, 51);
+      margin: 50px 20px;
+      padding: 5px;
+      font-size: 30px;
+      color: aliceblue;
+      border: 7px groove rgb(212, 158, 10);
+      border-radius: 4px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
 
 .div_1{
     width: 300px;
